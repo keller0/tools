@@ -6,12 +6,13 @@ PATH=/home/cai/plShare
 LPATH=/home/cai/plShare
 
 if [[ "$1" == "-f" && -n $2 ]]; then
-	echo $2 $USR@$DEST:$PATH
+	echo scp $2 $USR@$DEST:$PATH
     exit
 fi
 
 if [[ "$1" == "-c" && -n $2 ]]; then
 	echo $2 > $LPATH/clipboard
+	echo scp $LPATH/clipboard $USR@$DEST:$PATH
     exit
 fi
 
