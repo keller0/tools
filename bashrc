@@ -1,0 +1,4 @@
+
+
+alias dit=nautilus
+
