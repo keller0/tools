@@ -6,6 +6,7 @@ https://golang.org/dl/
 
 https://code.visualstudio.com/Download
 
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
 
 https://docs.docker.com/engine/install/ubuntu/
 
